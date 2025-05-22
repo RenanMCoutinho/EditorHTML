@@ -72,10 +72,10 @@ namespace EditorHTML
             switch (option)
             {
                 case 1:
-                    Console.WriteLine("New file");
+                    Editor.ShowMenu();
                     break;
                 case 2:
-                    Console.WriteLine("Open file");
+                    Viewer.ShowMenu();
                     break;
                 case 3:
                     Console.WriteLine("Save file");
@@ -84,6 +84,7 @@ namespace EditorHTML
                     Console.Clear();
                     Environment.Exit(0);
                     break;
+
                 default:
                     ShowMenu();
                     break;
