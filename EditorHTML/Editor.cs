@@ -34,6 +34,7 @@ namespace EditorHTML
 
             Console.WriteLine("-------------------------");
             Console.WriteLine("  Salvar? (S/N)");
+            Viewer.ShowMenu(file.ToString());
         }
 
     }

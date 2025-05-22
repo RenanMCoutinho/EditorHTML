@@ -75,7 +75,7 @@ namespace EditorHTML
                     Editor.ShowMenu();
                     break;
                 case 2:
-                    Viewer.ShowMenu();
+                    Console.WriteLine("Open file");
                     break;
                 case 3:
                     Console.WriteLine("Save file");
@@ -84,7 +84,6 @@ namespace EditorHTML
                     Console.Clear();
                     Environment.Exit(0);
                     break;
-
                 default:
                     ShowMenu();
                     break;
